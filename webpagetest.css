@@ -139,7 +139,7 @@ blockquote {
   width: 162px;
   margin: 0 auto;
   margin-top: 20px;
-  margin-bottom: 80px;
+  margin-bottom: 10px;
 }
 .actionbutton {
   background: #252525;
@@ -196,4 +196,9 @@ blockquote {
 }
 .textres {
   margin-left: 40px;
+}
+.videonike {
+  justify-content: center;
+  margin-left: 450px;
+  padding-bottom: 30px;
 }

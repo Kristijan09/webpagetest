@@ -2,7 +2,7 @@
 <html class="no-js" lang="">
   <head>
     <meta charset="utf-8" />
-    <title>Code</title>
+    <title></title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -16,59 +16,46 @@
     <!-- Place favicon.ico in the root directory -->
 
     <link rel="stylesheet" href="css/normalize.css" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    />
     <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="./css/first.css" />
+    <link rel="stylesheet" href="css/calculator.css" />
+
     <meta name="theme-color" content="#fafafa" />
   </head>
 
   <body>
     <!-- Add your site or application content here -->
-    <header>
-      <h1 id="firstID" class="first">Kristijan's Portfolio.</h1>
-      <div class="container">
-        <h3 class="second">Web Developer</h3>
+    <main>
+      <div id="calculator" class="calculator">
+        <button id="clear" class="clear">C</button>
+
+        <div id="viewer" class="viewer">0</div>
+
+        <button class="num" data-num="7">7</button>
+        <button class="num" data-num="8">8</button>
+        <button class="num" data-num="9">9</button>
+        <button data-op="plus" class="op">+</button>
+
+        <button class="num" data-num="4">4</button>
+        <button class="num" data-num="5">5</button>
+        <button class="num" data-num="6">6</button>
+        <button data-op="minus" class="op">-</button>
+
+        <button class="num" data-num="1">1</button>
+        <button class="num" data-num="2">2</button>
+        <button class="num" data-num="3">3</button>
+        <button data-op="times" class="op">*</button>
+
+        <button class="num" data-num="0">0</button>
+        <button class="num" data-num=".">.</button>
+        <button id="equals" class="equals" data-result="">=</button>
+        <button data-op="divided by" class="op">/</button>
       </div>
-      <h2>My Social Networks</h2>
-    </header>
-
-    <ul>
-      <li class="first" text-align="center">
-        Facebook: <a href="https://facebook.com/2deep9">click here </a>
-      </li>
-    </ul>
-
-    <h2>Code Academy</h2>
-
-    <blockquote>
-      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-      doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
-      inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-      Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
-      fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem
-      sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit
-      amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
-      incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad
-      minima veniam, quis nostrum exercitationem ullam corporis suscipit
-      laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis autem vel eum
-      iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae
-      consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.
-    </blockquote>
-
-    <footer>
-      <span>&copy;Kristijan Stoilkovski</span>
-    </footer>
-
+    </main>
     <script src="js/vendor/modernizr-3.11.2.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
-    <script src="./js/main.js"></script>
-    <script src="./js/hello.js"></script>
-    <script src="./js/references.js"></script>
-    <script src="./js/conditionals.js"></script>
+    <script src="js/calculator.js"></script>
+
     <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
     <script>
       window.ga = function () {

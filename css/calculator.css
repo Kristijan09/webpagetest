@@ -1,0 +1,43 @@
+body {
+  color: #00abee;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.calculator {
+  font-size: 28px;
+  margin: 0 auto;
+  width: 10em;
+}
+
+.viewer {
+  color: #c4325e;
+  float: left;
+  line-height: 3em;
+  text-align: right;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 7.5em;
+  height: 3em;
+}
+
+button {
+  border: 0;
+  background: rgba(42, 50, 113, 0.28);
+  color: #e23939;
+  cursor: pointer;
+  float: left;
+  font: inherit;
+  margin: 0.25em;
+  width: 2em;
+  height: 2em;
+  transition: all 0.5s;
+}
+
+button:hover {
+  background: #201e40;
+}
+
+button:focus {
+  outline: 0;
+}

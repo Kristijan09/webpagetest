@@ -107,15 +107,6 @@ img {
   flex-direction: row;
 }
 
-.roww {
-  justify-content: center;
-  display: flex;
-  flex-direction: column;
-  margin: 50px;
-  text-align: center;
-  word-wrap: break-word;
-}
-
 .flex-container2 {
   display: flex;
 
